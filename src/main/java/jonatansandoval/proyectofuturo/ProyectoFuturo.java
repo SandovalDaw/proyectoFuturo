@@ -5,9 +5,9 @@ package jonatansandoval.proyectofuturo;
  */
 public class ProyectoFuturo {
     public static void main(String[] args) {
-        System.out.println("Estudiante "+args[0]+":"); // Jonatan Sandoval
-        String valor1 = args[1]; // Nº de módulos
-        String valor2 = args[2]; // Nº de horas de estudio semanal
+        System.out.println("Estudiante "+args[0]+":"); // Jonatan Sandoval Alarcón
+        String valor1 = args[1]; // Número de módulos
+        String valor2 = args[2]; // Número de horas de estudio semanal
         System.out.println("Veredicto: "+veredicto(valor1,valor2));
     }
     static String veredicto(String valor1, String valor2){
